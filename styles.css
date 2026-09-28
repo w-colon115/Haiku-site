@@ -1,0 +1,42 @@
+img {
+    border: 5px solid rgb(62, 57, 57); /* Set the border thickness and color */
+    border-radius: 25px; /* Adjust the corner radius for a rounded rectangle */
+    width: 300px; /* Set the width of the rectangle */
+    height: 300px; /* Set the height of the rectangle */
+    object-fit: contain; /* Ensure the full image fits inside the rectangle */
+    object-position: center; 
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 80px; 
+    font-family: 'helvetica bold', sans-serif; 
+    color: #333; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-size: 28px; /* Adjust the size of the <h2> */
+    font-family: 'sabon', serif; /* Change the font of the <h2> */
+    color: #555; /* Optional: Change the text color */
+    text-align: center;
+}
+
+p {
+    font-size: 26px; /* Adjust the size of the paragraph text */
+    font-family: 'sabon', serif; /* Match the font style of <h2> */
+    color: #555; /* Match the text color of <h2> */
+    text-align: center; /* Center-align the paragraph text */
+    line-height: 1.6; /* Add spacing between lines for better readability */
+    margin: 20px auto; /* Add vertical spacing and center horizontally */
+    max-width: 600px; /* Limit the width of the paragraph for better readability */
+}
+
+body {
+    background-color: #fff5dbea; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
